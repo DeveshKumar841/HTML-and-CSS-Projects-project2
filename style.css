@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: gray;
+  height: 920px;
+  /* width: 400px; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.apply_box {
+  background-color: white;
+  height: 850px;
+  width: 600px;
+  border-radius: 15px;
+  margin-top: 40px;
+  padding: 30px 40px;
+  display: inline-block;
+  /* margin: 300px;
+  padding: 200px; */
+  /* display: flex;
+  justify-content: center; */
+  /* align-items: center; */
+}
+
+.chota {
+  font-size: 18px;
+}
+/* 
+.form_container {
+  display: flex;
+  margin: 40px 0px;
+}
+
+.form_control {
+  margin: 16px;
+}
+
+#Last_Name {
+  margin: 0px 10px;
+}
+label {
+  margin: 80px 60px;
+}
+
+/* input {
+  margin: 20px;
+} */
+.form_container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.form_control {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+input,
+select,
+textarea {
+  padding: 6px 10px;
+  border: 2px solid red;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+input,
+select,
+textarea:focus {
+  outline-color: yellow;
+}
+
+.button_container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 60px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 50px;
+  border: transparent solid 2px;
+  transition: 0.5s ease-in;
+}
+
+button:hover {
+  border: 8px solid pink;
+  background-color: black;
+  color: chartreuse;
+  transition: 0.3s ease-out;
+}
+
+.formll_control {
+  grid-column: 1 / span 2;
+}
+
+.formll_control textarea {
+  width: 100%;
+}
+
+@media (max-width: 610px) {
+  .formll_control {
+    grid-column: 1 / span 1;
+  }
+}
